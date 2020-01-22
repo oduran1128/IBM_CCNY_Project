@@ -1,0 +1,2145 @@
+{
+  "name": "PE Advisor",
+  "intents": [
+    {
+      "intent": "HAP",
+      "examples": [
+        {
+          "text": "tell me about HAP"
+        },
+        {
+          "text": "i want to know about HAP"
+        },
+        {
+          "text": "give me information about HAP"
+        },
+        {
+          "text": "i want to know about hazardous air pollutant"
+        },
+        {
+          "text": "how about hazardous air pollutant"
+        },
+        {
+          "text": "tell me about hazardous air pollutant"
+        }
+      ]
+    },
+    {
+      "intent": "Applications",
+      "examples": [
+        {
+          "text": "what are some products that are made of polyethylene?"
+        },
+        {
+          "text": "what are some of Polyethylene applications?"
+        },
+        {
+          "text": "Polyethylene applications"
+        },
+        {
+          "text": "pe applications"
+        },
+        {
+          "text": "applications is what I want to know about"
+        },
+        {
+          "text": "tell me about  polyethylene applications"
+        },
+        {
+          "text": "can you tell about pe applications"
+        },
+        {
+          "text": "what are some products that are made of PE?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "LowPressure",
+      "examples": [
+        {
+          "text": "low pressure polymerization is what I want to know more about"
+        },
+        {
+          "text": "Low pressure polymerization"
+        },
+        {
+          "text": "tell me about low pressure polymerization"
+        },
+        {
+          "text": "I want to know about low pressure polymerization"
+        },
+        {
+          "text": "I would like to know more about low pressure polymerization"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "SafetyFeatures",
+      "examples": [
+        {
+          "text": "tell me about safety features i am interested in that topic"
+        },
+        {
+          "text": "safety features"
+        },
+        {
+          "text": "I am interested in learning about safety features"
+        },
+        {
+          "text": "how about safety features"
+        },
+        {
+          "text": "what kind of safety equipment is available"
+        },
+        {
+          "text": "I am interested in plant safety features"
+        },
+        {
+          "text": "I would like to look at protective equipment"
+        },
+        {
+          "text": "what are the safety features in polyethylene plants"
+        },
+        {
+          "text": "I want to know about safety features"
+        },
+        {
+          "text": "tell me about the different safety fgeatures"
+        },
+        {
+          "text": "tell me about safety features"
+        },
+        {
+          "text": "tell me more about safety features I need to know"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "HDPE",
+      "examples": [
+        {
+          "text": "is what I want to know more about"
+        },
+        {
+          "text": "what about HDPE"
+        },
+        {
+          "text": "tell me about HDPE"
+        },
+        {
+          "text": "I would like to know more about"
+        },
+        {
+          "text": "HDPE applications"
+        },
+        {
+          "text": "High Density Polyethylene applications"
+        },
+        {
+          "text": "I want to know about HDPE"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "LDPE",
+      "examples": [
+        {
+          "text": "Low Density Polyethylene"
+        },
+        {
+          "text": "tell me about LDPE"
+        },
+        {
+          "text": "LDPE is what I want to know more about"
+        },
+        {
+          "text": "I would like to know more about LDPE"
+        },
+        {
+          "text": "I want to know about LDPE applications"
+        },
+        {
+          "text": "LDPE"
+        },
+        {
+          "text": "what about LDPE"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "HighPressure",
+      "examples": [
+        {
+          "text": "tell me about high pressure polymerization"
+        },
+        {
+          "text": "high pressure polymerization is what I want to know more about"
+        },
+        {
+          "text": "I would like to know more about high pressure polymerization"
+        },
+        {
+          "text": "high pressure polymerization"
+        },
+        {
+          "text": "I want to know about  high pressure polymerization"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "SolutionProcess",
+      "examples": [
+        {
+          "text": "tell me about the solution process"
+        },
+        {
+          "text": "solution process is what I want to know about"
+        },
+        {
+          "text": "what about the solution process"
+        },
+        {
+          "text": "I want to know about solution process"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Am I chatting with a human?"
+        },
+        {
+          "text": "Are you real?"
+        },
+        {
+          "text": "Is this a computer?"
+        },
+        {
+          "text": "How can you prove you are a human?"
+        },
+        {
+          "text": "Am I talking to a person or am I talking to an AI?"
+        },
+        {
+          "text": "Are you a human or a bot?"
+        },
+        {
+          "text": "Are you a robot?"
+        },
+        {
+          "text": "Are you even real?"
+        },
+        {
+          "text": "Are you human?"
+        },
+        {
+          "text": "Tell me, are you a human or no?"
+        },
+        {
+          "text": "Am I talking to a Bot?"
+        },
+        {
+          "text": "Am I talking to Watson?"
+        }
+      ],
+      "description": "Ask if speaking to a human or a bot."
+    },
+    {
+      "intent": "Ventilation",
+      "examples": [
+        {
+          "text": "what are some ventilation safety features"
+        },
+        {
+          "text": "ventilation"
+        },
+        {
+          "text": "ventilation safety features"
+        },
+        {
+          "text": "I want to know more about air quality"
+        },
+        {
+          "text": "I want to know about ventilation"
+        },
+        {
+          "text": "Ventilation is what I want to know about"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "WorkSafety",
+      "examples": [
+        {
+          "text": "OSHA regulations"
+        },
+        {
+          "text": "what about Occupational Safety and Health Administration regulations"
+        },
+        {
+          "text": "I want to know about work safety regulations"
+        },
+        {
+          "text": "I would like to know more about work safety"
+        },
+        {
+          "text": "work safety is what I want to know more about"
+        },
+        {
+          "text": "work safety"
+        },
+        {
+          "text": "what about work safety regulations"
+        },
+        {
+          "text": "work safety regulations"
+        },
+        {
+          "text": "tell me about OSHA"
+        },
+        {
+          "text": "OSHA is what I want to know more about"
+        },
+        {
+          "text": "I would like to know more about OSHA"
+        },
+        {
+          "text": "I want to know about OSHA regulations"
+        },
+        {
+          "text": "what about OSHA regulations"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Security_Assurance",
+      "examples": [
+        {
+          "text": "How do I know if my card info is kept safe?"
+        },
+        {
+          "text": "How do I know this chat is not a scam?"
+        },
+        {
+          "text": "How is my credit card info secured?"
+        },
+        {
+          "text": "Customer info secured?"
+        },
+        {
+          "text": "I'd like proof of a secure chat"
+        },
+        {
+          "text": "How safe is my data?"
+        },
+        {
+          "text": "In what way can I tell if my plastic is safe?"
+        },
+        {
+          "text": "Is my card info secure?"
+        },
+        {
+          "text": "Is my payment information secure?"
+        },
+        {
+          "text": "Is there a reason to distrust this chat?"
+        },
+        {
+          "text": "Is this a trusted chat site?"
+        },
+        {
+          "text": "Is this an official chat?"
+        },
+        {
+          "text": "Is this conversation secure?"
+        },
+        {
+          "text": "Precautions hackers?"
+        },
+        {
+          "text": "Protection hacks?"
+        },
+        {
+          "text": "Secure conversation?"
+        },
+        {
+          "text": "What guards do you have in place to protect your customer's data?"
+        },
+        {
+          "text": "What makes this chat trustworthy?"
+        },
+        {
+          "text": "What safety measures are used to ensure that chat is secure?"
+        },
+        {
+          "text": "Why would I trust this chat?"
+        },
+        {
+          "text": "Will my conversation remain secured?"
+        },
+        {
+          "text": "Do you have protection against hacks?"
+        },
+        {
+          "text": "Conversation secure?"
+        },
+        {
+          "text": "Can I be sure that my stored card details are held securely?"
+        },
+        {
+          "text": "Are you safe?"
+        },
+        {
+          "text": "Are you safe on hackers?"
+        }
+      ],
+      "description": "Express concerns about the security of the bot."
+    },
+    {
+      "intent": "Emissions",
+      "examples": [
+        {
+          "text": "tell me about EPA"
+        },
+        {
+          "text": "what about EPA"
+        },
+        {
+          "text": "tell me about Emissions regulations"
+        },
+        {
+          "text": "I would like to know more about Emissions"
+        },
+        {
+          "text": "Emissions regulations is what I want to know more about"
+        },
+        {
+          "text": "Environmental Protection Agency regulations"
+        },
+        {
+          "text": "I would like to know more about EPA"
+        },
+        {
+          "text": "I want to know about EPA"
+        },
+        {
+          "text": "EPA is what I want to know more about"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "Describe your self"
+        },
+        {
+          "text": "Can I use another language?"
+        },
+        {
+          "text": "About you"
+        },
+        {
+          "text": "Why are you here?"
+        },
+        {
+          "text": "Who are you?"
+        },
+        {
+          "text": "Where were you born?"
+        },
+        {
+          "text": "Where are you from?"
+        },
+        {
+          "text": "What's your name?"
+        },
+        {
+          "text": "What should I know about you?"
+        },
+        {
+          "text": "What languages do you speak?"
+        },
+        {
+          "text": "Tell me something about yourself"
+        },
+        {
+          "text": "Tell me about your life"
+        },
+        {
+          "text": "Let us talk about you"
+        },
+        {
+          "text": "Introduce your self"
+        },
+        {
+          "text": "I want to set up the chat bot for my shop"
+        },
+        {
+          "text": "How old are you?"
+        },
+        {
+          "text": "How do you function?"
+        },
+        {
+          "text": "How can I configure you?"
+        },
+        {
+          "text": "Do you know who you are?"
+        },
+        {
+          "text": "Do you have a name?"
+        }
+      ],
+      "description": "Request generic personal attributes."
+    },
+    {
+      "intent": "produce",
+      "examples": [
+        {
+          "text": "what materials are used to produce Polyethylene?"
+        },
+        {
+          "text": "how is Polyethylene produced?"
+        },
+        {
+          "text": "how pe is produced"
+        },
+        {
+          "text": "What are the different ways to produce Polyethylene?"
+        },
+        {
+          "text": "what components are used for Polyethylene production?"
+        },
+        {
+          "text": "Can you explain to me the overall process of Polyethylene?"
+        },
+        {
+          "text": "tell me about polyethylene production"
+        },
+        {
+          "text": "tell me about pe production"
+        },
+        {
+          "text": "what are different techniques to produce LDPE"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "IndustryStandards",
+      "examples": [
+        {
+          "text": "tell me more about the American National Standards Institute regulations"
+        },
+        {
+          "text": "ANSI regulations"
+        },
+        {
+          "text": "American National Standards Institute regulations"
+        },
+        {
+          "text": "tell me more about the ANSI regulations"
+        },
+        {
+          "text": "maybe ANSI regulations"
+        },
+        {
+          "text": "tell me more about the industry standards regulations"
+        },
+        {
+          "text": "I would like to know more about the industry standards regulations"
+        },
+        {
+          "text": "I would like to know more about the ANSI regulations"
+        },
+        {
+          "text": "industry standards regulations"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Fume",
+      "examples": [
+        {
+          "text": "I want to know about fumes"
+        },
+        {
+          "text": "I would like to know more about Fumes"
+        },
+        {
+          "text": "Fumes is what I want to know more about"
+        },
+        {
+          "text": "tell me about fumes"
+        },
+        {
+          "text": "what about fumes"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "AnotherQuestion",
+      "examples": [
+        {
+          "text": "I have another question"
+        },
+        {
+          "text": "another question"
+        },
+        {
+          "text": "another good question"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "You the man"
+        },
+        {
+          "text": "You're a genius!"
+        },
+        {
+          "text": "You've been so helpful :)"
+        },
+        {
+          "text": "You are awesome"
+        },
+        {
+          "text": "This is so cool"
+        },
+        {
+          "text": "This is great"
+        },
+        {
+          "text": "You are great"
+        },
+        {
+          "text": "You are the best"
+        },
+        {
+          "text": "You are wonderful"
+        },
+        {
+          "text": "You gave me exactly what I need!"
+        },
+        {
+          "text": "This is good"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "Ok thank you"
+        },
+        {
+          "text": "Love your work"
+        },
+        {
+          "text": "I'm looking forward to working with you again! :)"
+        },
+        {
+          "text": "Brilliant!"
+        },
+        {
+          "text": "Can't believe you are that good"
+        },
+        {
+          "text": "How cool is this?"
+        },
+        {
+          "text": "I like what you did there! :)"
+        }
+      ],
+      "description": "Express positive sentiment or gratitude."
+    },
+    {
+      "intent": "VOC",
+      "examples": [
+        {
+          "text": "tell me about VOC"
+        },
+        {
+          "text": "tell me more about volatile organic compounds"
+        },
+        {
+          "text": "i want to know about volatile organic compounds"
+        },
+        {
+          "text": "I want to know about VOC"
+        },
+        {
+          "text": "I am interested in more informations about VOC"
+        },
+        {
+          "text": "how about volatile compounds"
+        }
+      ]
+    },
+    {
+      "intent": "LLDPE",
+      "examples": [
+        {
+          "text": "I want to know about LLDPE"
+        },
+        {
+          "text": "I would like to know more about LLDPE"
+        },
+        {
+          "text": "Linear Low Density Polyethylene applications"
+        },
+        {
+          "text": "LLDPE applications"
+        },
+        {
+          "text": "what about LLDPE"
+        },
+        {
+          "text": "tell me about LLDPE"
+        },
+        {
+          "text": "LLDPE is what I want to know more about"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Time to go"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "I want to quit"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "ProcessSafety",
+      "examples": [
+        {
+          "text": "I would like to know more about Process Safety"
+        },
+        {
+          "text": "I want to know about Process Safety"
+        },
+        {
+          "text": "Process safety is what I want to know more about"
+        },
+        {
+          "text": "tell me about The Health and Safety Executives regulations"
+        },
+        {
+          "text": "HSE is what I want to know more about"
+        },
+        {
+          "text": "I want to know about HSE"
+        },
+        {
+          "text": "I would like to know more about HSE"
+        },
+        {
+          "text": "tell me about Process Safety regulations"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "Quit annoying me"
+        },
+        {
+          "text": "Robots are boring"
+        },
+        {
+          "text": "You're too stupid"
+        },
+        {
+          "text": "Hate you"
+        },
+        {
+          "text": "I do not like you"
+        },
+        {
+          "text": "It is annoying"
+        },
+        {
+          "text": "I hate you"
+        },
+        {
+          "text": "You're really irritating"
+        },
+        {
+          "text": "Stupid"
+        },
+        {
+          "text": "Robots are stupid"
+        },
+        {
+          "text": "You're really frustrating"
+        },
+        {
+          "text": "You are very frustrating"
+        },
+        {
+          "text": "You do not seem smart"
+        },
+        {
+          "text": "You are on my nerves"
+        },
+        {
+          "text": "You are having delusions"
+        },
+        {
+          "text": "Everyone hates you"
+        },
+        {
+          "text": "Do not like you?"
+        },
+        {
+          "text": "Why are you stupid?"
+        },
+        {
+          "text": "Why are you so annoying?"
+        },
+        {
+          "text": "I hate this!"
+        }
+      ],
+      "description": "Express unfavorable feedback."
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "How can you help me?"
+        },
+        {
+          "text": "Can you please give me a list of the types of things you can help me with?"
+        },
+        {
+          "text": "Can you tell me what services you are able to help me with?"
+        },
+        {
+          "text": "Do you have a list of things I can talk to you about?"
+        },
+        {
+          "text": "Help now"
+        },
+        {
+          "text": "Hi, what do you do?"
+        },
+        {
+          "text": "How can I use you?"
+        },
+        {
+          "text": "How can you solve my problems?"
+        },
+        {
+          "text": "How do I use you?"
+        },
+        {
+          "text": "I do not know what to ask"
+        },
+        {
+          "text": "I'd like to know what type of questions you can answer for me."
+        },
+        {
+          "text": "Is there anything you can help me with?"
+        },
+        {
+          "text": "Tell me about what kind of things you do?"
+        },
+        {
+          "text": "Tell me something"
+        },
+        {
+          "text": "What are my options that you can help with?"
+        },
+        {
+          "text": "What are my options?"
+        },
+        {
+          "text": "What are you able to deal with?"
+        },
+        {
+          "text": "What are you able to understand?"
+        },
+        {
+          "text": "What are you capable of?"
+        },
+        {
+          "text": "What are you good at?"
+        },
+        {
+          "text": "What are you used for?"
+        },
+        {
+          "text": "What are your skills?"
+        },
+        {
+          "text": "What can I ask you to do?"
+        },
+        {
+          "text": "What do you do?"
+        },
+        {
+          "text": "What do you handle?"
+        },
+        {
+          "text": "What else can you help me with?"
+        },
+        {
+          "text": "What features are in here?"
+        },
+        {
+          "text": "What is this 4?"
+        },
+        {
+          "text": "What kinds of things can you do?"
+        },
+        {
+          "text": "Where can I find the frequently asked questions?"
+        }
+      ],
+      "description": "Request capabilities of the bot."
+    },
+    {
+      "intent": "GasPhaseProcess",
+      "examples": [
+        {
+          "text": "tell me about the gas phase process"
+        },
+        {
+          "text": "what about the gas phase process"
+        },
+        {
+          "text": "I want to know about  the gas phase process"
+        },
+        {
+          "text": "the gas phase process is what I want to know about"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "SafetyShower",
+      "examples": [
+        {
+          "text": "safety showers is what I want to know more about"
+        },
+        {
+          "text": "what about safety showers features"
+        },
+        {
+          "text": "I would like to know more about safety showers"
+        },
+        {
+          "text": "I want to know about safety showers"
+        },
+        {
+          "text": "safety showers"
+        },
+        {
+          "text": "tell me about safety showers"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "hey"
+        },
+        {
+          "text": "/start"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "You there"
+        },
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Hello Agent"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "differentTopic",
+      "examples": [
+        {
+          "text": "different topic"
+        },
+        {
+          "text": "another topic"
+        },
+        {
+          "text": "something else"
+        },
+        {
+          "text": "I want to know about a different topic. machine safety in chemical process"
+        },
+        {
+          "text": "sth else"
+        },
+        {
+          "text": "something else, how do I reduce emissions from exit streams in polyethylene plants"
+        },
+        {
+          "text": "something else, what is the allowed flowrate of VOC in exit stream in PE plants"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "discovery",
+      "examples": [
+        {
+          "text": "how do I"
+        },
+        {
+          "text": "i need to calculte my emmisions"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "regulations",
+      "examples": [
+        {
+          "text": "regulations"
+        },
+        {
+          "text": "I have a question about regulations"
+        },
+        {
+          "text": "I need to know about compliance issues"
+        },
+        {
+          "text": "regulations is what I want to know about"
+        },
+        {
+          "text": "tell me about regulations"
+        },
+        {
+          "text": "I want to know about regulations in chemical plants"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "SlurryProcess",
+      "examples": [
+        {
+          "text": "tell me about the Slurry Process"
+        },
+        {
+          "text": "slurry process is what I want to know more about"
+        },
+        {
+          "text": "I would like to know more about slurry process"
+        },
+        {
+          "text": "I want to know about slurry process"
+        },
+        {
+          "text": "what about slurry process"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "eyeWash",
+      "examples": [
+        {
+          "text": "eye wash"
+        },
+        {
+          "text": "what about the eye wash safety features"
+        },
+        {
+          "text": "I would like to know more about eye wash safety features"
+        },
+        {
+          "text": "eye wash is what I want to know about"
+        },
+        {
+          "text": "what are the eye wash safety features"
+        },
+        {
+          "text": "tell me about safety features"
+        },
+        {
+          "text": "eyewash"
+        },
+        {
+          "text": "how about eyewash stations regulations"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "flowrate",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "flow rate",
+          "synonyms": [
+            "flow rates"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "flowrate",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "PE",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "polyethylene",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "PE",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "EmmConTech",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "emission control",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "reduce emissions",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "emmission control technique",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "EmmisionSource",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "exit stream",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "emission source",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "machinesafety",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "machine safety",
+          "synonyms": [
+            "injection moulding",
+            "extrusion"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": []
+    },
+    {
+      "entity": "ProcessUnit",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "processing unit",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "processunit",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "process unit",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "ChemicalProcess",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "chemicalprocess",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "chemical process",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "safetyshower",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "safety shower",
+          "synonyms": [
+            "shower",
+            "showers",
+            "showerhead"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": []
+    },
+    {
+      "entity": "regulations",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "regulations",
+          "synonyms": [
+            "regulation",
+            "laws"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Concentration",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "concentration",
+          "synonyms": [
+            "concentrations",
+            "level"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "language": "en",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    }
+  },
+  "description": "",
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "HAP",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "This document will provide you with more information about HAP regulations. https://iaspub.epa.gov/sor_internet/registry/substreg/searchandretrieve/advancedsearch/search.do?details=displayDetails&selectedSubstanceId=83723 "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1555266620031",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_14_1557678878969"
+      },
+      "conditions": "#HAP",
+      "dialog_node": "node_2_1558037277495",
+      "previous_sibling": "node_1_1558037260919"
+    },
+    {
+      "type": "standard",
+      "title": "VOC",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "This document will provide you with more information about VOC regulations. https://www3.epa.gov/airtoxics/orig189.html"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1555266620031",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_14_1557678878969"
+      },
+      "conditions": "#VOC",
+      "dialog_node": "node_1_1558037260919"
+    },
+    {
+      "type": "standard",
+      "title": "LLDPE Applications",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Some of the LLDPE applications are heavy duty bags, covers, buckets, and stretch films"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1557677998232",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_14_1557678878969"
+      },
+      "conditions": "#LLDPE",
+      "dialog_node": "node_7_1557678203463",
+      "previous_sibling": "node_6_1557678178829"
+    },
+    {
+      "type": "standard",
+      "title": "HDPE Applications",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Some of the HDPE applications are hard hats, detergent bottles, water distribution piping, food storage containers and bottle caps."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1557677998232",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_14_1557678878969"
+      },
+      "conditions": "#HDPE",
+      "dialog_node": "node_6_1557678178829",
+      "previous_sibling": "node_5_1557678149734"
+    },
+    {
+      "type": "standard",
+      "title": "LDPE Applications",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Some of the LDPE applications are plastic bags, dispensing bottles, film wraps, cables insulation, and general-purpose containers."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1557677998232",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_14_1557678878969"
+      },
+      "conditions": "#LDPE",
+      "dialog_node": "node_5_1557678149734"
+    },
+    {
+      "type": "standard",
+      "title": "Emissions",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "There are two categories of chemicals that are regulated by the EPA: VOC (Volatile Organic Compounds), and HAP (Hazardous Air Pollutant). "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "If you would like to know about a different topic then say \"Different Topic\" and the state your question!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1555261761951",
+      "metadata": {},
+      "conditions": "#Emissions",
+      "dialog_node": "node_10_1555266620031",
+      "previous_sibling": "node_8_1555271549840"
+    },
+    {
+      "type": "standard",
+      "title": "Work Safety",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link to OSHA safety regulations that are applicable in polyethylene plants: click the link below \"https://www.osha.gov/SLTC/plastics/index.html\""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1555261761951",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_14_1557678878969"
+      },
+      "conditions": "#WorkSafety",
+      "dialog_node": "node_8_1555271549840",
+      "previous_sibling": "node_7_1555272438065"
+    },
+    {
+      "type": "standard",
+      "title": "Industry Standards",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link to ANSI standards in the plastic industry ( Be aware that access costs 125 dollars) : click the link below \"https://webstore.ansi.org/Standards/ANSI/ANSIPLASTICSB1512017?source=blog\""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1555261761951",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_14_1557678878969"
+      },
+      "conditions": "#IndustryStandards",
+      "dialog_node": "node_7_1555272438065",
+      "previous_sibling": "node_9_1555272459012"
+    },
+    {
+      "type": "standard",
+      "title": "Process Safety",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "HSE provides guidance in the following safety topics: Controlling plastic fume, Machine safety. Which of these topics would you like to know more about?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1555261761951",
+      "metadata": {},
+      "conditions": "#ProcessSafety",
+      "dialog_node": "node_9_1555272459012"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "In the gas phase process, no solvent is used, Ethylene monomer and supported \ncatalyst are blown into the reactor, and the polymerization reaction takes place in fluidized bed reactor. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_11_1557678656284",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_14_1557678878969"
+      },
+      "conditions": "#GasPhaseProcess",
+      "dialog_node": "node_4_1558031201774",
+      "previous_sibling": "node_2_1558031104492"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "solvent that must be removed to isolate the polymer. Additionally, Polymerization reaction takes place in a CSTR (Continuous Stirred Tank Reactor). "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_11_1557678656284",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_14_1557678878969"
+      },
+      "conditions": "#SolutionProcess",
+      "dialog_node": "node_2_1558031104492",
+      "previous_sibling": "node_1_1558030949464"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "In the solution process, catalyst and polymer formed during production remains suspended in a liquid medium but never dissolving. Additionally, Polymerization reaction takes place in CSTR or tubular reactor. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_11_1557678656284",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_14_1557678878969"
+      },
+      "conditions": "#SlurryProcess",
+      "dialog_node": "node_1_1558030949464"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The following substances can be present in plastic fume if the upper limit of polyethylene processing is reached: Butane, other alkanes, alkenes. For more information and guidance on avoiding plastic fumes : click the link below \"http://www.hse.gov.uk/pubns/ppis13.pdf\""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1555272459012",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_14_1557678878969"
+      },
+      "conditions": "#Fume",
+      "dialog_node": "node_6_1555277249986",
+      "previous_sibling": "node_3_1555277568402"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is a link to useful information on machine safety during plastic processing : click the link below \"_blank\" href=\"http://www.hse.gov.uk/plastics/machine-safety.htm\""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1555272459012",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_14_1557678878969"
+      },
+      "conditions": "@machinesafety",
+      "dialog_node": "node_3_1555277568402"
+    },
+    {
+      "type": "standard",
+      "title": "Low Pressure Polymerization",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "There are three types of processes developed for low pressure polymerization Solution Process, Slurry Process, and Gas Phase Process\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "which process you want to know about?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1557678479517",
+      "metadata": {},
+      "conditions": "#LowPressure",
+      "dialog_node": "node_11_1557678656284",
+      "previous_sibling": "node_10_1557678529492"
+    },
+    {
+      "type": "standard",
+      "title": "High Pressure Polymerization",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "High pressure polymerization produces Low Density Polyethylene (LDPE). The operating pressure ranging from 1000 to 3000 barg, where the operating temperature ranging from 80 to 300 °C."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1557678479517",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_14_1557678878969"
+      },
+      "conditions": "#HighPressure",
+      "dialog_node": "node_10_1557678529492"
+    },
+    {
+      "type": "standard",
+      "title": "Eye wash",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ANSI regulations require that eyewash stations be hooked up to a lukewarm water source and be capable of maintaining flows of .4 gallons per minute for up to 15 minutes, according to the Occupational Health & Safety Online site. ANSI regulations also require proper lighting around the eyewash station and an unimpeded path so employees can reach it within 10 seconds. For more information on eye wash stations requirements click the link below \" href=\"https://www.hughes-safety-showers.com/fileuploader/download/download/?d=1&file=custom%2Fupload%2FANSI-tech-guide-Hughes-NA.pdf\""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1555259218201",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_14_1557678878969"
+      },
+      "conditions": "#eyeWash",
+      "dialog_node": "node_6_1555260375984",
+      "previous_sibling": "node_5_1556119014926"
+    },
+    {
+      "type": "standard",
+      "title": "Safety shower",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Safety showers should be installed no more than 10 seconds (approx. 55 ft) walk away from the hazard location. For more information on safety shower regulations and industry standards click the link below \"http://www.gesafety.com/downloads/ANSIGuide.pdf\""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1555259218201",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_14_1557678878969"
+      },
+      "conditions": "#SafetyShower",
+      "dialog_node": "node_2_1555259851679",
+      "previous_sibling": "node_6_1555260375984"
+    },
+    {
+      "type": "standard",
+      "title": "Ventilation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Exhaust stack for fume ventilation should be as far as possible from the air intake. A distance of 15 meters is usually considered adequate. For more information on industry best practices for fume ventilation click the link below \"http://www2.dupont.com/Plastics/en_US/assets/downloads/processing/L10953.pdf\""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1555259218201",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_14_1557678878969"
+      },
+      "conditions": "#Ventilation",
+      "dialog_node": "node_5_1556119014926"
+    },
+    {
+      "type": "standard",
+      "title": "Production of LDPE",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "There are two main processes to produce LDPE polyethylene: High Pressure Polymerization, Low Pressure Polymerization. Which process you want to know more about?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#produce",
+      "dialog_node": "node_9_1557678479517",
+      "previous_sibling": "node_4_1557677998232"
+    },
+    {
+      "type": "standard",
+      "title": "Applications",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Do you want to know about the applications of High Density Polyethylene (HDPE), Linear Low Density Polyethylene (LLDPE), or Low Density Polyethylene (LDPE)?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Applications",
+      "dialog_node": "node_4_1557677998232",
+      "previous_sibling": "node_1_1555261761951"
+    },
+    {
+      "type": "standard",
+      "title": "What else?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What else do you want to learn about? I can tell you about safety features, polyethylene applications, polyethylene production, polyethylene production reactions, polyethylene production techniques and regulations in polyethylene plants"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#AnotherQuestion",
+      "dialog_node": "node_14_1557678878969",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Safety features and their regulations",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Would like to know more about regulations of safety shower, eye wash stations, or ventilation? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#SafetyFeatures",
+      "dialog_node": "node_9_1555259218201",
+      "previous_sibling": "node_14_1557678878969"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_9_1557678479517"
+    },
+    {
+      "type": "standard",
+      "title": "Standards and general regulations",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Would you like to know about regulations of: work safety, emissions, process safety, or industry standards?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#regulations",
+      "dialog_node": "node_1_1555261761951",
+      "previous_sibling": "node_9_1555259218201"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hey I'm Seth, a plant safety expert. I can help you with safety features, polyethylene applications, polyethylene production techniques and regulations in polyethylene plants. What can I do for you today?"
+              },
+              {
+                "text": "Do you want to learn about safety features, polyethylene applications, polyethylene production techniques and regulations in polyethylene plants. Tell me, I am here to help you!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#General_Greetings || welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "workspace_id": "a3560531-9463-4c54-b1d5-1a44bd55df1e",
+  "counterexamples": [
+    {
+      "text": "chemical process"
+    },
+    {
+      "text": "how about the chemical process"
+    },
+    {
+      "text": "i want to know about chemical process"
+    },
+    {
+      "text": "tell me about chemical process"
+    },
+    {
+      "text": "tell me about the chemical process in a polyethylene plant"
+    }
+  ],
+  "system_settings": {
+    "tooling": {
+      "store_generic_responses": true
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "status": "Available"
+}
